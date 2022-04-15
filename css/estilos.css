@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: 'satisfy' ;
+    src: url(../assets/fonts/Satisfy-Regular.ttf)
+}
+@font-face {
+    font-family: 'merienda';
+    src: url(../assets/fonts/Merienda-Regular.ttf);
+}
+@font-face {
+    font-family: 'mali';
+    src: url(../assets/fonts/Mali-Regular.ttf);
+}
+
+.bordesredondeados{
+    border: solid 3px violet;
+    border-radius: 30px;
+    margin: 20px;
+
+}
+
+p{
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 13px;
+
+}
+
+body{
+    background-image: url(../assets/background/clouds.gif);
+    background-size:contain;
+    background-color: antiquewhite;
+}
+
+h2{
+    font-family: 'merienda';
+    font-size: 30px;
+    text-align: center;
+    color: rgb(3, 41, 63);
+    margin-top: 150px;
+    animation-name: movimiento_titulo;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+
+
+
+
+
+h3{
+    font-family: 'mali';
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+.metodos{
+    margin-left: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.pago{
+    position: relative;
+    margin-left: 30px;
+}
+
+#encabezados{
+    font-family: 'satisfy';
+    font-size: 70px;
+    text-align: center;
+    color: blueviolet;
+    transition: all 3s;
+}
+
+#encabezados:hover{
+    transform: translate(-3px);
+    color: aquamarine;
+}
+
+
+
+
+.boton{
+    position: relative;
+    left: 1300px;
+    bottom: 250px;
+    padding: 12px 25px;
+    background-color: darksalmon;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'mali';
+    transition: all 1s;
+}
+
+.boton:hover{
+    transform: translate(-3px);
+    color: salmon;
+    background-color: blueviolet;
+}
+
+
+/*Contenedor padre*/
+
+.flex-container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*Hijos del flex container*/
+
+
+.flex img{
+    width: 250px;
+}
+
+.flex{
+    margin: 25px;
+}
+
+.flex p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'mali';
+}
+
+.lorem{
+    font-family: 'mali';
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+.Pregunta{
+    list-style-type: circle;
+    font-family: 'mali';
+    font-size: 25px;
+    text-align:justify;
+    margin: 40px;
+}
+
+
+
+
+
+.piedepagina{
+    background-image: linear-gradient(135deg, rgba(225, 149, 255, 0.856) 10%, antiquewhite 100% );
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+
+.text-muted{
+    margin: 810px;
+}
+
+h2{
+
+}
+
